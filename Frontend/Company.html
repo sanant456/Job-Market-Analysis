@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Company Job Posting</title>
+    <link rel="stylesheet" href="company.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Company Job Requirement Form</h2>
+        <form action="/submit_company_info" method="post">
+            <label for="company_name">Company Name:</label>
+            <input type="text" id="company_name" name="company_name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+
+            <label for="job_title">Job Title:</label>
+            <input type="text" id="job_title" name="job_title" required>
+
+            <label for="description">Job Description:</label>
+            <textarea id="description" name="description" required></textarea>
+
+            <label for="qualification">Required Qualification:</label>
+            <input type="text" id="qualification" name="qualification" placeholder="e.g., B.Tech in Computer Science" required>
+
+            <label for="required_skills">Required Skills:</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="skills[]" value="C"> C</label>
+                <label><input type="checkbox" name="skills[]" value="Java"> Java</label>
+                <label><input type="checkbox" name="skills[]" value="Python"> Python</label>
+                <label><input type="checkbox" name="skills[]" value="SQL"> SQL</label>
+                <label><input type="checkbox" name="skills[]" value="Communication"> Communication</label>
+                <label><input type="checkbox" name="skills[]" value="Leadership"> Leadership</label>
+            </div>
+
+            <button type="submit">Post Job</button>
+        </form>
+    </div>
+</body>
+</html>

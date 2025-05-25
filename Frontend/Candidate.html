@@ -1,1 +1,47 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Candidate Info Form</title>
+    <link rel="stylesheet" href="candidate.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Applier Information</h2>
+        <form action="/submit_candidate_info" method="post" enctype="multipart/form-data">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+
+            <label for="qualification">Qualification:</label>
+            <input type="text" id="qualification" name="qualification" required>
+
+            <label for="qualification certificate">Upload Certificate (PDF/Docs):</label>
+            <input type="file" id="certificate" name="certificate" accept=".pdf,.doc,.docx" required>
+
+            <label for="skills">Select Your Skills:</label>
+            <label>Skills:</label>
+                <input type="checkbox" name="skills[]" value="C"> C
+                <input type="checkbox" name="skills[]" value="Java"> Java
+                <input type="checkbox" name="skills[]" value="Python"> Python
+                <input type="checkbox" name="skills[]" value="Arduino IDE"> Arduino IDE
+                <input type="checkbox" name="skills[]" value="Teamwork"> Teamwork
+                <input type="checkbox" name="skills[]" value="Communication"> Communication
+                <input type="checkbox" name="skills[]" value="ReactJS"> ReactJS
+                <input type="checkbox" name="skills[]" value="Solidworks"> Solidworks
+
+
+            <label for="companies">Interested Companies:</label>
+            <textarea id="companies" name="companies"></textarea>
+
+            <button type="submit">Submit Info</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -25,5 +25,14 @@ This project analyzes current job market trends for roles like Software Engineer
   •	Help job seekers align their skills with market needs
 	
   •	Enable educators and trainers to design upskilling programs
+  
+  <img width="777" alt="Screenshot 2025-06-10 at 11 53 06 PM" src="https://github.com/user-attachments/assets/72f3506d-a25c-433c-998d-e05debcb2427" />
+
 	
-  •	Support employers with data-driven hiring insights
+ •	Support employers with data-driven hiring insights
+  <img width="588" alt="Screenshot 2025-06-10 at 11 53 31 PM" src="https://github.com/user-attachments/assets/1be7e380-aa3f-43e5-ad18-83ba84866aa7" />
+
+
+
+
+  

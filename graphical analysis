@@ -1,0 +1,54 @@
+Jobs Dataset:
+            Job Title   Company   Location           Skills_Required   Salary
+0       Data Analyst  ABC Corp  Bangalore        Python, SQL, Excel   600000
+1  Software Engineer   XYZ Ltd       Pune         Java, Spring, SQL   800000
+2     Data Scientist  Data Inc  Bangalore           Python, ML, SQL  1200000
+3  Software Engineer  TechSoft  Hyderabad  Java, Microservices, AWS   900000
+4   Business Analyst  BizGroup       Pune      Excel, SQL, Power BI   700000 
+
+Candidates Dataset:
+   Candidate           Skills
+0     Alice      Python, SQL
+1       Bob     Java, Spring
+2   Charlie    Python, Excel
+3     Diana  Excel, Power BI 
+
+
+Top Job Titles:
+ Job Title
+Software Engineer    2
+Data Analyst         1
+Data Scientist       1
+Business Analyst     1
+Name: count, dtype: int64
+
+Top Locations:
+ Location
+Bangalore    2
+Pune         2
+Hyderabad    1
+Name: count, dtype: int64
+
+Most In-Demand Skills:
+ Skills_Required
+SQL              4
+Python           2
+Excel            2
+Java             2
+Spring           1
+ML               1
+Microservices    1
+AWS              1
+Power BI         1
+Name: count, dtype: int64
+
+Average Salary by Job Title:
+ Job Title
+Business Analyst      700000.0
+Data Analyst          600000.0
+Data Scientist       1200000.0
+Software Engineer     850000.0
+Name: Salary, dtype: float64
+
+Skills Gap (Market needs but candidates lack):
+ {'AWS', 'Microservices', 'ML'}

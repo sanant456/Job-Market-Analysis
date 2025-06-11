@@ -1,3 +1,5 @@
+# Output:
+
 Jobs Dataset:
             Job Title   Company   Location           Skills_Required   Salary
 0       Data Analyst  ABC Corp  Bangalore        Python, SQL, Excel   600000
